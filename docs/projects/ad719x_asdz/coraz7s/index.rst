@@ -87,7 +87,7 @@ typing in your command prompt:
 
    user@analog:~$ cd hdl/projects/ad719x_asdz/coraz7s
    user@analog:~/hdl/projects/cn0577/zed$ make
-.. 
+
 Check `this
 guide <resources/tools-software/linux-software/kuiper-linux>`__ on
 how to prepare your SD card with the proper boot files.
@@ -102,7 +102,7 @@ Setup guide
    :width: 500
    :align: center
    :alt: AD7190/CORAZ7S setup
-..
+
 
 **EVAL-AD7195-ASDZ**
 
@@ -110,7 +110,6 @@ Setup guide
    :width: 500
    :align: center
    :alt: AD7190/CORAZ7S setup
-..
 
 Same setup for :part:`EVAL-AD7193-ASDZ`. For :part:`EVAL-AD7190-EBZ` you need an external
 power supply of **5V**.
@@ -147,12 +146,10 @@ Connections and hardware changes
 
    Please pay attention to the following hardware changes!
 
-..
-
 -  Only for EVAL-AD7190-EBZ:
 
    - jumper J1 should be placed in position **5V USB** (default one)
-   - PMOD connection: JA on CORAZ7S and J2 on EVAL-AD7190-EBZ (for reference, see `CORAZ7S reference-manual, section 12 Pmod Connectors <https://digilent.com/reference/programmable-logic/cora-z7/reference-manual>`_ and the :git-hdl:`constraint file <https://github.com/analogdevicesinc/hdl/blob/master/projects/ad719x_asdz/coraz7s/system_constr.xdc>`_)
+   - PMOD connection: JA on CORAZ7S and J2 on EVAL-AD7190-EBZ (for reference, see the :git-hdl:`constraint file <master:projects/ad719x_asdz/coraz7s/system_constr.xdc>`)
 
 -  For EVAL-AD7193-ASDZ and EVAL-AD7195-ASDZ:
    
@@ -178,7 +175,6 @@ For **EVAL-AD7190-EBZ**:
       :width: 600
       :align: center
       :alt: AD7190/CORAZ7S PMOD
-   ..
    
 #. Prepare the SD card
 
@@ -228,8 +224,6 @@ Troubleshooting
 
 Resources
 -------------------------------------------------------------------------------
-
-\**\* MENTION THESE \**\*
 
 -  Link to the project source code:
 
